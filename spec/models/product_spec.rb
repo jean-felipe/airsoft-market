@@ -3,6 +3,7 @@
 # Table name: products
 #
 #  id          :uuid             not null, primary key
+#  category    :integer
 #  description :text
 #  name        :string
 #  price       :decimal(, )

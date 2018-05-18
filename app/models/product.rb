@@ -3,6 +3,7 @@
 # Table name: products
 #
 #  id          :uuid             not null, primary key
+#  category    :integer
 #  description :text
 #  name        :string
 #  price       :decimal(, )
@@ -20,5 +21,8 @@
 #
 
 class Product < ApplicationRecord
+  CATEGORIES = %i[gun clothes vehicle accessories]
+
+  enum category: CATEGORIES
   belongs_to :user
 end
