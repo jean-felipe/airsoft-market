@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'annotate'
 gem 'devise'
 gem 'simple_form'
+gem "bulma-rails", "~> 0.7.1"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
